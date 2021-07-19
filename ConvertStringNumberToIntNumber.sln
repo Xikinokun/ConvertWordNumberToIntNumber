@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertStringNumberToIntNumberTest", "ConvertStringNumberToIntNumber\ConvertStringNumberToIntNumberTest.csproj", "{72CC9EBD-9A1B-415B-B179-317A0396A553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertStringNumberToIntNumberConsole", "ConvertStringNumberToIntNumberConsole\ConvertStringNumberToIntNumberConsole.csproj", "{D7AA9F2C-F9B5-4C77-94B7-9F4C8C7FAE73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72CC9EBD-9A1B-415B-B179-317A0396A553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CC9EBD-9A1B-415B-B179-317A0396A553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CC9EBD-9A1B-415B-B179-317A0396A553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CC9EBD-9A1B-415B-B179-317A0396A553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AA9F2C-F9B5-4C77-94B7-9F4C8C7FAE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AA9F2C-F9B5-4C77-94B7-9F4C8C7FAE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AA9F2C-F9B5-4C77-94B7-9F4C8C7FAE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AA9F2C-F9B5-4C77-94B7-9F4C8C7FAE73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A883EA4F-09D4-43C6-AB52-08F9102A1B8D}
+	EndGlobalSection
+EndGlobal
