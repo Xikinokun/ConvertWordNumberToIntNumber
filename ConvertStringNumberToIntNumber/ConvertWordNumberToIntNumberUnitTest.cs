@@ -20,70 +20,70 @@ namespace ConvertStringNumberToIntNumber
         [Fact]
         public void TestWordsOnesOne()
         {
-            string text = "îäèí";
+            string text = "один";
             Assert.Equal(1, convert.ConvertOnesWordNumberToOnesIntNumber(text));
         }
         
         [Fact]
         public void TestWordsOnesTwo()
         {
-            string text = "äâà";
+            string text = "два";
             Assert.Equal(2, convert.ConvertOnesWordNumberToOnesIntNumber(text));
         }
 
         [Fact]
         public void TestWordsTeensEleven()
         {
-            string text = "îäèííàäöàòü";
+            string text = "одиннадцать";
             Assert.Equal(11, convert.ConvertTeensWordNumberToTeensIntNumber(text));
         }
         
         [Fact]
         public void TestWordsTeensTwelve()
         {
-            string text = "äâåíàäöàòü";
+            string text = "двенадцать";
             Assert.Equal(12, convert.ConvertTeensWordNumberToTeensIntNumber(text));
         }
 
         [Fact]
         public void TestWordsTensTen()
         {
-            string text = "äåñÿòü";
+            string text = "десять";
             Assert.Equal(10, convert.ConvertTensWordNumberToTensIntNumber(text));
         }
         
         [Fact]
         public void TestWordsTensTwenty()
         {
-            string text = "äâàäöàòü";
+            string text = "двадцать";
             Assert.Equal(20, convert.ConvertTensWordNumberToTensIntNumber(text));
         }
 
         [Fact]
         public void TestWordsHundredsHundred()
         {
-            string text = "ñòî";
+            string text = "сто";
             Assert.Equal(100, convert.ConvertHundredsWordNumberToHundredsIntNumber(text));
         }
 
         [Fact]
         public void TestWordsHundredsTwoHundred()
         {
-            string text = "äâåñòè";
+            string text = "двести";
             Assert.Equal(200, convert.ConvertHundredsWordNumberToHundredsIntNumber(text));
         }
 
         [Fact]
         public void TestWordsOneMillion()
         {
-            string text = "ìèëëèîí";
+            string text = "миллион";
             Assert.Equal(1000000, convert.ConvertMillionsWordNumberToMillionsIntNumber(text));
         }
 
         [Fact]
         public void TestWordTwentyMillion()
         {
-            string text = "äâàäöàòü ìèëëèîíîâ";
+            string text = "двадцать миллионов";
             Assert.Equal(20000000, convert.ConvertTwentyMillionWordNumberToIntNumber(text));
         }
     }
